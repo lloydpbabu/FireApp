@@ -10,37 +10,8 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.lloyd.fireapp.MainActivity">
 
-    <Button
-        android:text="Button"
+    <ListView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/addbtn"
-        android:padding="20dp"
-        tools:text="Add value to firebase"
-        android:layout_centerVertical="true"
-        android:layout_alignParentStart="true" />
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:ems="10"
-        android:id="@+id/keyValue"
-        android:hint="Key"
-        android:padding="20dp"
-        android:layout_marginTop="12dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true" />
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:ems="10"
-        android:id="@+id/valueField"
-        android:hint="Value"
-        android:padding="20dp"
-        android:layout_below="@+id/keyValue"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="36dp" />
+        android:layout_height="match_parent"
+        android:id="@+id/listView" />
 </RelativeLayout>
